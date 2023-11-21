@@ -1,0 +1,245 @@
+body {
+  background-image: url("https://drexel.edu/~/media/Drexel/Core-Site-Group/Core/Images/admissions/visit-tours/virtual-background-downloads/blue-pattern.ashx");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 0.2%;
+}
+
+.logo{
+  width: 50px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+h5#servicios.display-4.text-center {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+p {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+p.large {
+  font-size: 20px;
+  color: #0000ff;
+}
+
+
+p.margin {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+p.border {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0.5rem;
+}
+
+
+
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+
+
+.nav-link:hover {
+  color: #0056b3;
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.nav-link.active {
+  color: #fff;
+  background-color: #007bff;
+}
+
+
+
+@media (max-width: 991.98px) {
+  .navbar-expand-lg {
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+  }
+
+  .navbar-collapse {
+    display: none !important;
+  }
+
+  .navbar-toggler {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+
+  .navbar-toggler .icon-bar {
+    width: 1.5rem;
+    height: 0.25rem;
+    background-color: #fff;
+    border-radius: 0.125rem;
+  }
+
+  .navbar-toggler:hover {
+    text-decoration: none;
+  }
+
+  .navbar-collapse.collapse {
+    display: block !important;
+  }
+}
+
+
+
+h5#quienes somos {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h5#servicios {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-sm-6 {
+  width: 50%;
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.mb-3 {
+  margin-bottom: 15px;
+}
+
+.mb-sm-0 {
+  margin-bottom: 0;
+}
+
+
+.equipo.p{
+ 
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 1rem;
+  }
+  
+  p.large {
+    font-size: 20px;
+    color: #0000ff;
+  }
+  
+  
+  p.margin {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  
+  p.border {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 0.5rem;
+  }
+
+.form {
+  margin-top: 20px;
+}
+
+
+.form-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+.form-control {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.form-check-input {
+  margin-right: 5px;
+}
+
+
+.form-check-label {
+  margin-bottom: 0px;
+}
+.container-fluid{
+  width: 99%;
+}
+.header{
+  min-width: none;
+  max-width: 1000px;
+  width: 767px;
+}
+.servicios{
+  background-color:#66BEDB;
+}
+.cuestionario  {
+  background-color: #66BEDB;
+}
+.inicio{
+  background-color: #66BEDB;
+}
+.card-body{
+  background-color: #66BEDB;
+}
+.fondo{
+  background-color: #66BEDB;
+}
+#equipo{
+  background-color: #66BEDB;
+}
+#staticBackdrop{
+  background-color: #66BEDB;
+}
+
+  
